@@ -1,0 +1,6 @@
+.venv/
+.conda/
+.codex_runtime/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml

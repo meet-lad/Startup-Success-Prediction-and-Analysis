@@ -1,0 +1,41 @@
+{
+  "model": "RandomForestClassifier",
+  "features": [
+    "company_age",
+    "Funding_log",
+    "funding_rounds",
+    "Industry_clean",
+    "country_code"
+  ],
+  "top_countries": [
+    "CAN",
+    "CHN",
+    "GBR",
+    "USA",
+    "Unknown"
+  ],
+  "industries": [
+    "Advertising",
+    "Biotechnology",
+    "Clean Technology",
+    "Curated Web",
+    "E-Commerce",
+    "Enterprise Software",
+    "Games",
+    "Hardware + Software",
+    "Health Care",
+    "Health and Wellness",
+    "Manufacturing",
+    "Mobile",
+    "Other",
+    "Semiconductors",
+    "Software"
+  ],
+  "test_metrics": {
+    "accuracy": 0.817,
+    "precision": 0.909,
+    "recall": 0.877,
+    "f1": 0.893,
+    "roc_auc": 0.715
+  }
+}
